@@ -1,0 +1,106 @@
+body {
+  background-image: url('graphy.png');
+  font-family: 'Open Sans', sans-serif;
+}
+
+.jven-header {
+  max-width: 500px;
+  margin: 80px auto 20px auto;
+  text-align: center;
+  border-bottom: solid 2px #555;
+}
+
+.jven-header h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.jven-navigation {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.jven-navigation li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.jven-navigation span {
+  font-style: italic;
+}
+
+.jven-body {
+  background-color: rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 15px 30px;
+}
+
+.jven-footer {
+  border-top: solid 2px #555;
+  max-width: 500px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+.jven-links a {
+  background-size: contain;
+  display: inline-block;
+  margin: 10px 0 0 0;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+}
+
+.jven-links a.jven-fb {
+  background-image: url('fb.png');
+}
+
+.jven-links a.jven-ig {
+  background-image: url('ig.png');
+}
+
+.jven-links a.jven-in {
+  background-image: url('in.png');
+}
+
+.jven-links a.jven-gh {
+  background-image: url('gh.png');
+}
+
+.jven-update {
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* index.html */
+
+.jven-index-caption {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.jven-index-caption p {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.jven-index-me {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+}
+
+/* resume.html */
+
+.jven-resume iframe {
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin: 15px 0 0 0;
+}
