@@ -33,7 +33,7 @@ body {
 }
 
 .jven-body {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   max-width: 700px;
   margin: 0 auto;
   padding: 15px 30px;
@@ -103,4 +103,65 @@ body {
   width: 100%;
   height: 400px;
   margin: 15px 0 0 0;
+}
+
+/* thoughts.html */
+
+.jven-thoughts-list {
+  margin: 0;
+  padding: 0;
+}
+
+.jven-thoughts-list a {
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  max-width: 350px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.jven-thoughts-list a:hover {
+  background-color: #2196F3;
+  color: white;
+}
+
+.jven-thoughts-list a:active {
+  background-color: #444;
+  color: white;
+}
+
+.jven-thoughts-list a h2 {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.jven-thoughts-list a h3 {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+/* thoughts */
+
+.jven-thoughts-post h2 {
+  font-size: 20px;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.jven-thoughts-post h3 {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+.jven-thoughts-post p {
+  font-size: 14px;
 }
