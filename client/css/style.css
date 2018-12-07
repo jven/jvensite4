@@ -1,5 +1,5 @@
 body {
-  background-image: url('graphy.png');
+  background-image: url('/img/graphy.png');
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -56,19 +56,19 @@ body {
 }
 
 .jven-links a.jven-fb {
-  background-image: url('fb.png');
+  background-image: url('/img/fb.png');
 }
 
 .jven-links a.jven-ig {
-  background-image: url('ig.png');
+  background-image: url('/img/ig.png');
 }
 
 .jven-links a.jven-in {
-  background-image: url('in.png');
+  background-image: url('/img/in.png');
 }
 
 .jven-links a.jven-gh {
-  background-image: url('gh.png');
+  background-image: url('/img/gh.png');
 }
 
 .jven-update {
