@@ -1,0 +1,24 @@
+{
+  "name": "jvensite4",
+  "version": "1.0.0",
+  "description": "Personal website for jven.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jven/jvensite4.git"
+  },
+  "author": "Justin Venezuela (jven@jvenezue.la)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jven/jvensite4/issues"
+  },
+  "homepage": "https://github.com/jven/jvensite4#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "path": "^0.12.7"
+  }
+}
