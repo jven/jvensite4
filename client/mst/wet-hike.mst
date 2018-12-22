@@ -1,0 +1,11 @@
+{{ > header }}
+<div class="jven-thoughts-post">
+  <h2>Wet hike</h2>
+  <h3>August 25, 2018</h3>
+  <h3>Sk&oacute;gar, Iceland</h3>
+
+  <p>I started the Laugavegur trail at Landmannalaugar on the 22nd and finished in Sk&oacute;gar on the 25th, 2 days ahead of schedule. This was my first multi-day hike ever and it could not have gone smoother. Yes, it was hard and wet and tiring and cold and wet (very wet). But it was also majestic and relaxing and exciting and rewarding. I met and hiked with unforgettable people along the way -- to name a few: a caring father and headstrong daughter from Belgium, a fast man from Latvia, an adventurous student from Germany, a spontaneous traveller from Israel, and a strongly-opinionated couple from Philadelphia.</p>
+
+  <p>Unlike my other recent trips, I consider my two weeks in Iceland less a story that I lived and more a painting that I had the fortunate opportunity to meander through. So with that in mind, I'll leave the words few here and just conclude without any attempt at proof that Iceland is absurdly beautiful.</p>
+</div>
+{{ > footer }}

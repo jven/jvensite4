@@ -1,4 +1,6 @@
 const express = require('express');
+const fs = require('fs');
+const mustache = require('mustache');
 const path = require('path');
 
 const app = express();
@@ -6,16 +8,39 @@ const server = require('http').createServer(app);
 
 app
     .use(express.static(path.join(__dirname, '../client')))
-    .get('/', (req, res) => sendPage('index.html', req, res))
-    .get('/resume', (req, res) => sendPage('resume.html', req, res))
-    .get('/thoughts', (req, res) => sendPage('thoughts.html', req, res))
-    .get('/altitude-sickness', (req, res) => sendPage('altitude-sickness.html', req, res))
-    .get('/wet-hike', (req, res) => sendPage('wet-hike.html', req, res))
-    .get('/hollywood-endings', (req, res) => sendPage('hollywood-endings.html', req, res))
-    .get('/recurse-center', (req, res) => sendPage('recurse-center.html', req, res));
+    .get('/', (req, res) =>
+        sendPage('/', 'index', req, res))
+    .get('/resume', (req, res) =>
+        sendPage('/resume', 'resume', req, res))
+    .get('/thoughts', (req, res) =>
+        sendPage('/thoughts', 'thoughts', req, res))
+    .get('/altitude-sickness', (req, res) =>
+        sendPage('/altitude-sickness', 'altitude-sickness', req, res))
+    .get('/wet-hike', (req, res) =>
+        sendPage('/wet-hike', 'wet-hike', req, res))
+    .get('/hollywood-endings', (req, res) =>
+        sendPage('/hollywood-endings', 'hollywood-endings', req, res))
+    .get('/recurse-center', (req, res) =>
+        sendPage('/recurse-center', 'recurse-center', req, res));
 
-function sendPage(pageName, req, res) {
-  res.sendFile(path.join(__dirname, '../client', pageName));
+function sendPage(pagePath, pageName, req, res) {
+  const template = fs.readFileSync(
+      path.join(__dirname, `../client/mst/${pageName}.mst`)).toString();
+  const header = fs.readFileSync(
+      path.join(__dirname, '../client/mst/partials/header.mst')).toString();
+  const footer = fs.readFileSync(
+      path.join(__dirname, '../client/mst/partials/footer.mst')).toString();
+  const html = mustache.render(
+      template,
+      {
+        navigationEntries: [
+          {isCurrentPath: '/' == pagePath, path: '/', title: 'Who am I?'},
+          {isCurrentPath: '/resume' == pagePath, path: '/resume', title: 'Resume'},
+          {isCurrentPath: '/thoughts' == pagePath, path: '/thoughts', title: 'Thoughts'}
+        ],
+      },
+      {header, footer});
+  res.send(html);
 }
 
 const port = process.env.PORT || 716;

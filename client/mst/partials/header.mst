@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Justin Venezuela</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/favicon.ico">
+  </head>
+  <body>
+    <div class="jven-header">
+      <h1>Justin Venezuela</h1>
+      <ol class="jven-navigation">
+        {{ #navigationEntries }}
+        <li>
+          {{ ^isCurrentPath }}<a href="{{ path }}">{{ title }}</a>{{ /isCurrentPath }}
+          {{ #isCurrentPath }}<span>[ {{ title }} ]</span>{{ /isCurrentPath }}
+        </li>
+        {{ /navigationEntries }}
+      </ol>
+    </div>
+    <div class="jven-body">

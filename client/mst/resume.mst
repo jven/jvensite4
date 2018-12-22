@@ -1,0 +1,6 @@
+{{ > header }}
+<div class="jven-resume">
+  <a href="/resume.pdf" target="_blank">(download as PDF)</a>
+  <iframe src="https://docs.google.com/document/d/1IZKWq9eoIdVvlAVpDbCwRB6wBfv8hhctBHPhwSeyrKE/preview"></iframe>
+</div>
+{{ > footer }}
