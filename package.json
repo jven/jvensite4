@@ -2,9 +2,10 @@
   "name": "jvensite4",
   "version": "1.0.0",
   "description": "Personal website for jven.",
-  "main": "server/server.js",
   "scripts": {
-    "start": "node src/server/server.js"
+    "compile": "tsc",
+    "copystatic": "cp -r src/client build",
+    "start": "npm run compile && npm run copystatic && node build/server/main.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/jven/jvensite4#readme",
   "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.12.18",
     "express": "^4.16.4",
     "fs": "0.0.1-security",
     "http": "0.0.0",

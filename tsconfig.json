@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["es6"],
+    "rootDir": "./src",
+    "outDir": "./build"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
