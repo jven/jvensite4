@@ -48,7 +48,9 @@ function sendPage(pagePath: string, pageName: string):
 
 
 function navigationEntry(
-    navigationPath: string, navigationTitle: string, pagePath: string) : Object {
+    navigationPath: string,
+    navigationTitle: string,
+    pagePath: string) : Object {
   return {
     isCurrentPath: navigationPath == pagePath,
     path: navigationPath,
