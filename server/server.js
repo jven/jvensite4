@@ -11,7 +11,8 @@ app
     .get('/thoughts', (req, res) => sendPage('thoughts.html', req, res))
     .get('/altitude-sickness', (req, res) => sendPage('altitude-sickness.html', req, res))
     .get('/wet-hike', (req, res) => sendPage('wet-hike.html', req, res))
-    .get('/hollywood-endings', (req, res) => sendPage('hollywood-endings.html', req, res));
+    .get('/hollywood-endings', (req, res) => sendPage('hollywood-endings.html', req, res))
+    .get('/recurse-center', (req, res) => sendPage('recurse-center.html', req, res));
 
 function sendPage(pageName, req, res) {
   res.sendFile(path.join(__dirname, '../client', pageName));
