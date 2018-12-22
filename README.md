@@ -4,7 +4,7 @@ My beautiful website: http://jvenezue.la.
 
 ## Credits
 
-Hosted on http://x10hosting.com.
+Hosted on http://heroku.com.
 
 Background images from https://www.toptal.com/designers/subtlepatterns/.
 
