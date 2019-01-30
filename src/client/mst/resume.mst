@@ -1,6 +1,11 @@
 {{ > header }}
 <div class="jven-resume">
-  <a href="/resume.pdf" target="_blank">(download as PDF)</a>
+  <div>
+    <a href="https://docs.google.com/document/d/1IZKWq9eoIdVvlAVpDbCwRB6wBfv8hhctBHPhwSeyrKE/preview" target="_blank">(open in new tab)</a>
+  </div>
+  <div>
+    <a href="/resume.pdf" target="_blank">(download as PDF)</a>
+  </div>
   <iframe src="https://docs.google.com/document/d/1IZKWq9eoIdVvlAVpDbCwRB6wBfv8hhctBHPhwSeyrKE/preview"></iframe>
 </div>
 {{ > footer }}
