@@ -1,6 +1,10 @@
 <html>
   <head>
     <title>Justin Venezuela</title>
+    <meta name="description" content="Personal website for Justin Venezuela. Software engineer.">
+    <meta name="og:title" content="Justin Venezuela">
+    <meta name="og:description" content="Personal website for Justin Venezuela. Software engineer.">
+    <meta name="og:url" content="http://jvenezue.la">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="/favicon.ico">
