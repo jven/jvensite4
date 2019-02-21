@@ -1,5 +1,9 @@
 {{ > header }}
 <ul class="jven-thoughts-list">
+  <a href="/star-gazing">
+    <h2>Star gazing</h2>
+    <h3>February 21, 2019 - Lake Tekapo, New Zealand</h3>
+  </a>
   <a href="/recurse-center">
     <h2>Recurse center</h2>
     <h3>December 14, 2018 - Brooklyn, NY</h3>

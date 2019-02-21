@@ -20,7 +20,8 @@ app
     .get(
         '/hollywood-endings',
         sendPage('/hollywood-endings', 'hollywood-endings'))
-    .get('/recurse-center', sendPage('/recurse-center', 'recurse-center'));
+    .get('/recurse-center', sendPage('/recurse-center', 'recurse-center'))
+    .get('/star-gazing', sendPage('/star-gazing', 'star-gazing'));
 
 
 function sendPage(pagePath: string, pageName: string):

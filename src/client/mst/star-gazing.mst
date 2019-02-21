@@ -1,0 +1,23 @@
+{{ > header }}
+<div class="jven-thoughts-post">
+  <h2>Star gazing</h2>
+  <h3>February 21, 2019</h3>
+  <h3>Lake Tekapo, New Zealand</h3>
+
+  <p>I spent the entire month of February 2019 in New Zealand with my girlfriend. For her, it was her last long break before graduating medical school and starting residency. For me, it was my last long trip before ending my funemployment and hunting for a job.</p>
+
+  <p>February 21st was the day after a full moon and we'd booked a 1am stargazing tour at an observatory in Lake Tekapo. The town was part of an international dark sky reserve -- the only one in the southern hemisphere -- and the observatory sat on top of a large hill overlooking the lake and the town.</p>
+
+  <p>Just after midnight, we were riding a bus up the hill, both of us already extremely sleepy before the tour even started. As the bus climbed the winding road, we saw the lake and the mountains behind it lit up from the full moon. The driver told us that most days in the month you could barely see a few feet in front of you.</p>
+
+  <p>When we stepped off the bus, we met our tour guide who went on to spew a lot of information at us over the next two hours: the distances between Earth and this planet and that star. The nuances of the relationship between a star's temperature and luminosity. Never before has someone spoken to me so passionately about nuclear fusion at 2am. Or at least not while sober.</p>
+
+  <p>Although my sleep-deprived brain failed to absorb most of this knowledge, one thing she said really stuck with me.</p>
+  
+  <p>She pointed to one of the brighter dots in the sky and said, "That's Alpha Centauri, the closest cluster of stars to our Sun. It's 4.3 light years away, meaning that the light now reaching us from there left Alpha Centauri 4.3 years ago. Or put another way, when that light left the star, I was working an office job in the UK and had no idea I'd move to New Zealand and become a tour guide."</p>
+
+  <p>I started reflecting on things that had happened in the last 4.3 years to me and the people around me. One of my closest college friends met his (then) girlfriend and (now) fiancée. My mom got her green card and US citizenship. In my life, new relationships formed and old ones fizzled. I met my girlfriend. I quit my job.</p>
+
+  <p>I looked up at the tiny white dot in the sky, imagining light at that very moment leaving Alpha Centauri, trillions of miles away. Where will I be when that light finally reaches me?</p>
+</div>
+{{ > footer }}
