@@ -1,5 +1,7 @@
 body {
-  background-image: url('/img/graphy.png');
+  background-color: #eee;
+  background-image: linear-gradient(to bottom, white, #eee 300px);
+  color: #111;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -11,29 +13,43 @@ body {
 }
 
 .jven-header h1 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Playfair Display SC', serif;
   font-size: 40px;
   margin: 0;
   padding: 0;
+  text-shadow: 3px 3px 2px #ccc;
+}
+
+.jven-header h1 a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .jven-navigation {
-  list-style-type: none;
   margin: 10px 0;
   padding: 0;
 }
 
-.jven-navigation li {
+.jven-navigation div {
   display: inline-block;
+  font-weight: bold;
   margin: 0 10px;
+  padding: 2px 5px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.jven-navigation span {
-  font-style: italic;
+.jven-navigation div.jven-current-path {
+  border-bottom: solid 4px #bd3b31;
+  cursor: default;
+}
+
+.jven-navigation a {
+  color: #222;
+  text-decoration: none;
 }
 
 .jven-body {
-  background-color: rgba(0, 0, 0, 0.1);
   max-width: 700px;
   margin: 0 auto;
   padding: 15px 30px;
@@ -113,25 +129,15 @@ body {
 }
 
 .jven-thoughts-list a {
-  background-color: #eee;
-  color: black;
-  cursor: pointer;
+  background-color: #ccc;
+  color: inherit;
   display: block;
+  font-weight: bold;
   margin: 10px auto;
   max-width: 350px;
   padding: 5px;
   text-align: center;
   text-decoration: none;
-}
-
-.jven-thoughts-list a:hover {
-  background-color: #2196F3;
-  color: white;
-}
-
-.jven-thoughts-list a:active {
-  background-color: #444;
-  color: white;
 }
 
 .jven-thoughts-list a h2 {
@@ -164,4 +170,19 @@ body {
 
 .jven-thoughts-post p {
   font-size: 14px;
+}
+
+/* hoverable */
+.jven-hoverable {
+  cursor: pointer;
+
+  -webkit-transition: background-color 0.2s, opacity 0.2s;
+  -moz-transition: background-color 0.2s, opacity 0.2s;
+  -o-transition: background-color 0.2s, opacity 0.2s;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+.jven-hoverable:hover,
+.jven-hoverable:active {
+  background-color: #ddd;
 }

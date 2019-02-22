@@ -5,20 +5,20 @@
     <meta name="og:title" content="Justin Venezuela">
     <meta name="og:description" content="Personal website for Justin Venezuela. Software engineer.">
     <meta name="og:url" content="http://jvenezue.la">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Open+Sans">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="/favicon.ico">
   </head>
   <body>
     <div class="jven-header">
-      <h1>Justin Venezuela</h1>
-      <ol class="jven-navigation">
+      <h1><a href="/">Justin Venezuela</a></h1>
+      <div class="jven-navigation">
         {{ #navigationEntries }}
-        <li>
+        <div class="jven-navigation-entry {{ ^isCurrentPath }}jven-hoverable{{ /isCurrentPath }}{{ #isCurrentPath }}jven-current-path{{ /isCurrentPath }}">
+          {{ #isCurrentPath }}{{ title }}{{ /isCurrentPath }}
           {{ ^isCurrentPath }}<a href="{{ path }}">{{ title }}</a>{{ /isCurrentPath }}
-          {{ #isCurrentPath }}<span>[ {{ title }} ]</span>{{ /isCurrentPath }}
-        </li>
+        </div>
         {{ /navigationEntries }}
-      </ol>
+      </div>
     </div>
     <div class="jven-body">

@@ -1,22 +1,22 @@
 {{ > header }}
 <ul class="jven-thoughts-list">
-  <a href="/star-gazing">
+  <a class="jven-hoverable" href="/star-gazing">
     <h2>Star gazing</h2>
     <h3>February 21, 2019 - Lake Tekapo, New Zealand</h3>
   </a>
-  <a href="/recurse-center">
+  <a class="jven-hoverable" href="/recurse-center">
     <h2>Recurse center</h2>
     <h3>December 14, 2018 - Brooklyn, NY</h3>
   </a>
-  <a href="/altitude-sickness">
+  <a class="jven-hoverable" href="/altitude-sickness">
     <h2>Altitude sickness</h2>
     <h3>September 14, 2018 - Salkantay Mountain, Peru</h3>
   </a>
-  <a href="/wet-hike">
+  <a class="jven-hoverable" href="/wet-hike">
     <h2>Wet hike</h2>
     <h3>August 25, 2018 - Sk&oacute;gar, Iceland</h3>
   </a>
-  <a href="/hollywood-endings">
+  <a class="jven-hoverable" href="/hollywood-endings">
     <h2>Hollywood endings</h2>
     <h3>August 19, 2018 - Montreal, Quebec</h3>
   </a>
