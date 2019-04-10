@@ -1,9 +1,9 @@
 {{ > header }}
 <div class="jven-index-caption">
-  <p>I'm currently a software engineer at <a href="https://spell.run">Spell</a>. Previously at <a href="https://google.com">Google</a>.
+  <p>I'm currently a software engineer at <a href="https://spell.run" target="_blank">Spell</a>. Previously at <a href="https://google.com" target="_blank">Google</a>.
   <p>I'm also a pianist, rock climber, and chess player.</p>
   <p>I live, work, and play in New York City.</p>
-  <p>E-mail me at <a href="mailto:jven@jvenezue.la">jven@jvenezue.la</a>. :)</p>
+  <p>E-mail me at <a href="mailto:jven@jvenezue.la" target="_blank">jven@jvenezue.la</a>. :)</p>
 </div>
 <img class="jven-index-me" src="/img/me.png">
 {{ > footer }}
