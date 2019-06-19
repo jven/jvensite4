@@ -23,3 +23,15 @@ Server is up on port 716.
 ```
 
 Then go to http://localhost:716.
+
+## Pushing to Heroku
+
+```shell
+$ brew tap heroku/brew && brew install heroku
+$ heroku git:remote -a jven
+[...]
+set git remote heroku to https://git.heroku.com/jven.git
+$ git push heroku master
+[...]
+remote: https://jven.herokuapp.com/ deployed to Heroku
+```
