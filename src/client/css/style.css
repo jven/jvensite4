@@ -2,7 +2,7 @@ body {
   background-color: #eee;
   background-image: linear-gradient(to bottom, white, #eee 300px);
   color: #111;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .jven-header {
@@ -13,7 +13,7 @@ body {
 }
 
 .jven-header h1 {
-  font-family: 'Playfair Display SC', serif;
+  font-family: "Playfair Display SC", serif;
   font-size: 40px;
   margin: 0;
   padding: 0;
@@ -72,19 +72,19 @@ body {
 }
 
 .jven-links a.jven-fb {
-  background-image: url('/img/fb.png');
+  background-image: url("/img/fb.png");
 }
 
 .jven-links a.jven-ig {
-  background-image: url('/img/ig.png');
+  background-image: url("/img/ig.png");
 }
 
 .jven-links a.jven-in {
-  background-image: url('/img/in.png');
+  background-image: url("/img/in.png");
 }
 
 .jven-links a.jven-gh {
-  background-image: url('/img/gh.png');
+  background-image: url("/img/gh.png");
 }
 
 .jven-update {

@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+.app {
+  background-color: #dedede;
+  background-image: linear-gradient(to bottom, white, #dedede 500px);
+  color: #111;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}

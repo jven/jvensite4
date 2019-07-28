@@ -1,0 +1,32 @@
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social a {
+  background-size: contain;
+  opacity: 0.8;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+
+  transition: opacity 0.1s;
+}
+
+.social a:hover,
+.social a:active {
+  opacity: 1;
+}
+
+.instagram {
+  background-image: url("./instagram.png");
+}
+
+.github {
+  background-image: url("./github.png");
+}
+
+.linkedin {
+  background-image: url("./linkedin.png");
+}

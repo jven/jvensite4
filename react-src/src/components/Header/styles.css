@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC&display=swap");
+
+.header {
+  border-bottom: solid 2px #555;
+  padding-bottom: 5px;
+  width: 500px;
+}
+
+.header h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-shadow: 3px 3px 2px #ccc;
+}
