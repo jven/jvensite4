@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./styles.css";
 import Footer from "../Footer";
 import Header from "../Header";
+import "./styles.css";
 
 const Page: React.FC<Props> = ({ children }) => (
   <div className="page">

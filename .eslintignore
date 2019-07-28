@@ -1,0 +1,4 @@
+/build/**
+/node_modules/**
+/react-src/build/**
+/react-src/node_modules/**

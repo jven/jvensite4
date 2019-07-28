@@ -5,6 +5,8 @@
   "scripts": {
     "compile": "tsc",
     "copystatic": "cp -r src/client build",
+    "lint": "eslint \"**/*.ts*\"",
+    "lint:fix": "eslint --fix \"**/*.ts*\"",
     "start": "npm run compile && npm run copystatic && node build/server/main.js"
   },
   "repository": {
@@ -26,5 +28,14 @@
     "mustache-express": "^1.2.8",
     "path": "^0.12.7",
     "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^6.1.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.4.0"
   }
 }

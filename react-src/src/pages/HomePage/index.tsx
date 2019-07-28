@@ -1,6 +1,6 @@
-import React from "react";
-import Page from "../../components/Page";
 import me from "./me.png";
+import Page from "../../components/Page";
+import React from "react";
 import "./style.css";
 
 const HomePage: React.FC = () => (
@@ -8,7 +8,7 @@ const HomePage: React.FC = () => (
     <div className="home">
       <div className="hi">
         <p>
-          I'm currently a software engineer at{" "}
+          I&apos;m currently a software engineer at{" "}
           <a href="https://spell.run" target="_blank" rel="noopener noreferrer">
             Spell
           </a>
@@ -22,7 +22,7 @@ const HomePage: React.FC = () => (
           </a>
           .
         </p>
-        <p>I'm also a pianist, rock climber, and chess player.</p>
+        <p>I&apos;m also a pianist, rock climber, and chess player.</p>
         <p>I live, work, and play in New York City.</p>
         <p>
           E-mail me at{" "}

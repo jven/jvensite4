@@ -1,7 +1,7 @@
 import React from "react";
 
-import "./styles.css";
 import Navigation from "../Navigation";
+import "./styles.css";
 
 const Header: React.FC = () => (
   <div className="header">
