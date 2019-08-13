@@ -1,11 +1,11 @@
 import Page from "../../components/Page";
 import React from "react";
-import "./style.css";
+import styles from "./style.scss";
 
 const ResumePage: React.FC = () => (
   <Page>
-    <div className="resume">
-      <div className="options">
+    <div className={styles.resume}>
+      <div className={styles.options}>
         <a
           href="https://docs.google.com/document/d/1IZKWq9eoIdVvlAVpDbCwRB6wBfv8hhctBHPhwSeyrKE/preview"
           target="_blank"

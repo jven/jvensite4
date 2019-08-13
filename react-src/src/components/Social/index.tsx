@@ -1,23 +1,23 @@
 import React from "react";
 
-import "./styles.css";
+import styles from "./styles.scss";
 
 const Social: React.FC = () => (
-  <div className="social">
+  <div className={styles.social}>
     <a
-      className="instagram"
+      className={styles.instagram}
       href="https://www.instagram.com/jvenezuela716"
       target="_blank"
       rel="noopener noreferrer"
     />
     <a
-      className="github"
+      className={styles.github}
       href="https://www.github.com/jven"
       target="_blank"
       rel="noopener noreferrer"
     />
     <a
-      className="linkedin"
+      className={styles.linkedin}
       href="https://www.linkedin.com/in/justin-venezuela"
       target="_blank"
       rel="noopener noreferrer"

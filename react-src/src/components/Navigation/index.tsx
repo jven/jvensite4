@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "./styles.css";
+import styles from "./styles.scss";
 
 const Navigation: React.FC = () => (
-  <div className="navigation">
-    <Link className="link" to="/">
+  <div className={styles.navigation}>
+    <Link className={styles.link} to="/">
       Who am I?
     </Link>
-    <Link className="link" to="/resume">
+    <Link className={styles.link} to="/resume">
       Resume
     </Link>
   </div>

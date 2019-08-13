@@ -2,12 +2,12 @@ import React from "react";
 
 import Footer from "../Footer";
 import Header from "../Header";
-import "./styles.css";
+import styles from "./styles.scss";
 
 const Page: React.FC<Props> = ({ children }) => (
-  <div className="page">
+  <div className={styles.page}>
     <Header />
-    <div className="pageBody">{children}</div>
+    <div className={styles.pageBody}>{children}</div>
     <Footer />
   </div>
 );

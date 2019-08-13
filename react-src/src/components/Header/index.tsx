@@ -1,10 +1,10 @@
 import React from "react";
 
 import Navigation from "../Navigation";
-import "./styles.css";
+import styles from "./styles.scss";
 
 const Header: React.FC = () => (
-  <div className="header">
+  <div className={styles.header}>
     <h1>Justin Venezuela</h1>
     <Navigation />
   </div>

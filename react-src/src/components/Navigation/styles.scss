@@ -14,9 +14,9 @@
   color: #222;
   text-decoration: none;
   transition: background-color 0.1s;
-}
 
-.link:hover,
-.link:active {
-  background-color: #ddd;
+  &:hover,
+  &:active {
+    background-color: #ddd;
+  }
 }

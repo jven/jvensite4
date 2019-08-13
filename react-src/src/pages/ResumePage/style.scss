@@ -1,0 +1,15 @@
+.resume {
+  .options {
+    margin-bottom: 10px;
+    text-align: center;
+
+    a {
+      margin: 0 10px;
+    }
+  }
+
+  iframe {
+    height: calc(100vh - 300px);
+    width: 800px;
+  }
+}

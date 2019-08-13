@@ -1,12 +1,12 @@
 import me from "./me.png";
 import Page from "../../components/Page";
 import React from "react";
-import "./style.css";
+import styles from "./style.scss";
 
 const HomePage: React.FC = () => (
   <Page>
-    <div className="home">
-      <div className="hi">
+    <div className={styles.home}>
+      <div className={styles.hi}>
         <p>
           I&apos;m currently a software engineer at{" "}
           <a href="https://spell.run" target="_blank" rel="noopener noreferrer">
@@ -36,7 +36,7 @@ const HomePage: React.FC = () => (
           . :)
         </p>
       </div>
-      <img alt="Me" className="me" src={me} />
+      <img alt="Me" className={styles.me} src={me} />
     </div>
   </Page>
 );
