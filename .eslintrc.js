@@ -50,6 +50,7 @@ module.exports = {
         memberSyntaxSortOrder: ["all", "single", "multiple", "none"]
       }
     ],
-    "jsx-a11y/anchor-has-content": "off"
+    "jsx-a11y/anchor-has-content": "off",
+    "no-console": "off"
   }
 };

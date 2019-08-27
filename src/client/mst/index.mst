@@ -1,6 +1,7 @@
 {{ > header }}
 <div class="jven-index-caption">
-  <p>I'm currently a software engineer at <a href="https://spell.run" target="_blank">Spell</a>. Previously at <a href="https://google.com" target="_blank">Google</a>.
+  <p>Previously, I was a software engineer at <a href="https://google.com" target="_blank">Google</a> and <a href="https://spell.run" target="_blank">Spell</a>.
+  <p>Now I'm back at <a href="https://google.com" target="_blank">Google</a>.
   <p>I'm also a pianist, rock climber, and chess player.</p>
   <p>I live, work, and play in New York City.</p>
   <p>E-mail me at <a href="mailto:jven@jvenezue.la" target="_blank">jven@jvenezue.la</a>. :)</p>
