@@ -11,6 +11,7 @@ const server = require("http").createServer(app);
 app
   .use(express.static(path.join(__dirname, "../client")))
   .get("/", sendPage("/", "index"))
+  .get("/patty2021", patty2021())
   .get("/resume", sendPage("/resume", "resume"))
   .get("/thoughts", sendPage("/thoughts", "thoughts"))
   .get(
@@ -63,6 +64,13 @@ function navigationEntry(
     isCurrentPath: navigationPath == pagePath,
     path: navigationPath,
     title: navigationTitle
+  };
+}
+
+function patty2021(): (req: Request, res: Response) => void {
+  return (req, res) => {
+    const html = '<html>Placeholder for Patty\'s gift.</html>';
+    res.send(html);
   };
 }
 
