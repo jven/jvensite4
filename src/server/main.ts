@@ -69,8 +69,10 @@ function navigationEntry(
 
 function patty2021(): (req: Request, res: Response) => void {
   return (req, res) => {
-    const html = '<html>Placeholder for Patty\'s gift.</html>';
-    res.send(html);
+    res.writeHead(301, {
+      Location: 'http://patty2021.surge.sh'
+    });
+    res.end();
   };
 }
 
