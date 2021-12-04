@@ -11,7 +11,8 @@ const server = require("http").createServer(app);
 app
   .use(express.static(path.join(__dirname, "../client")))
   .get("/", sendPage("/", "index"))
-  .get("/patty2021", patty2021())
+  .get("/patty2021", redirect('http://patty2021.surge.sh'))
+  .get("/patty2021win", redirect('http://patty2021.surge.sh/win.html'))
   .get("/resume", sendPage("/resume", "resume"))
   .get("/thoughts", sendPage("/thoughts", "thoughts"))
   .get(
@@ -67,10 +68,10 @@ function navigationEntry(
   };
 }
 
-function patty2021(): (req: Request, res: Response) => void {
+function redirect(destination: string): (req: Request, res: Response) => void {
   return (req, res) => {
     res.writeHead(301, {
-      Location: 'http://patty2021.surge.sh'
+      Location: destination
     });
     res.end();
   };
